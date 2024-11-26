@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgb(175, 6, 6);
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+}
+
+#boxs{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#consult{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: double 2px  var(--primary-color);
+    box-shadow: var(--primary-color) 0px 0px 20px 5px;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.container-word{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#title{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+#inputs{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs_texts{
+    border: double 2px var(--primary-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.radios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: double 2px  var(--primary-color);
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    flex-wrap: wrap; 
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#radios-categories{
+    width: 60%;
+}
+
+.btn-style{
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+#tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    height: auto;
+    gap: 10px; 
+    margin-top: 20px;
+    color: white;
+}
+
+#container-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: double 2px var(--primary-color);
+    border-radius: 20px;
+    gap: 20px;
+    position: relative;
+    bottom: 65rem;
+    left: 35vw;
+    width: 20rem;
+    height: 20rem;
+    padding: 20px;
+}

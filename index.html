@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Traductor</title>
+</head>
+<body>
+    <header>
+        <p id="title">Traductor</p>
+    </header>
+    <main>
+        <section id="boxs">
+            <div id="consult">
+                <div id="inputs">
+                    <input type="text" id="inputText" placeholder="insert text" class="inputs_texts">
+                    <button id="btn-add" class="btn-style">Add Word</button>
+                    <!-- <fieldset>
+                        <label for="">Language: </label>
+                        <select name="" id="">
+                            <option value="spanish">spanish</option> 
+                            <option value="english">english</option> 
+                        </select>
+                    </fieldset>  antigua forma de seleccionar una opcion--> 
+                    <p class="subtitle">Languages</p>
+                    <div id="radios-language" class="radios">
+                        <input type="radio" id="spanish" name="language" value="spanish" checked>
+                        <label for="spanish">Spanish</label>
+                        <input type="radio" id="english" name="language" value="english">
+                        <label for="english">English</label>
+                    </div>
+                    <p class="subtitle">Categories</p>
+                    <div id="radios-categories" class="radios">
+                        <div>
+                            <input type="radio" id="animals" name="category" value="animals" checked>
+                            <label for="animals">Animals</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="fruits" name="category" value="fruits">
+                            <label for="fruits">Fruits</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="colors" name="category" value="colors">
+                            <label for="colors">Colors</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="physical_descriptions" name="category" value="physical_descriptions">
+                            <label for="physical_descriptions">Physical descriptions</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="skills" name="category" value="skills">
+                            <label for="skills">Skills</label>
+                        </div>
+                        <div>
+                        <input type="radio" id="verbs" name="category" value="verbs">
+                        <label for="verbs">Verbs</label>
+                        </div>
+                    </div>
+                    <p class="subtitle">Order Table</p>
+                    <div id="radios-order" class="radios">
+                        <input type="radio" id="A-Z" name="order" value="A-Z" checked>
+                        <label for="A-Z">A-Z</label>
+                        <input type="radio" id="Z-A" name="order" value="Z-A">
+                        <label for="Z-A">Z-A</label>
+                    </div>
+                    <button id="btn-traduct" class="btn-style">traduct</button>
+                </div>
+                <section id="word">
+
+                </section>
+            </div>
+        </section>
+        <section id="tables">
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script type="module" src="scripts/dictionary.js"></script>
+<script type="module" src="scripts/app.js"></script>
+</html>
